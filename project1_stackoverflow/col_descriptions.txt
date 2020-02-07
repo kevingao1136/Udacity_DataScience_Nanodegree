@@ -1,0 +1,898 @@
+Respondent
+Respondent ID number
+[1 2 3 4 5]
+
+
+Professional
+Which of the following best describes you?
+['Student' 'Professional developer'
+ 'Professional non-developer who sometimes writes code'
+ 'Used to be a professional developer' 'None of these']
+
+
+ProgramHobby
+Do you program as a hobby or contribute to open source projects?
+['Yes, both' 'Yes, I program as a hobby' 'No'
+ 'Yes, I contribute to open source projects']
+
+
+Country
+In which country do you currently live?
+['United States' 'United Kingdom' 'Switzerland' 'New Zealand' 'Poland']
+
+
+University
+Are you currently enrolled in a formal, degree-granting college or university program?
+['No' 'Yes, full-time' 'Yes, part-time' 'I prefer not to say']
+
+
+EmploymentStatus
+Which of the following best describes your current employment status?
+['Not employed, and not looking for work' 'Employed part-time'
+ 'Employed full-time'
+ 'Independent contractor, freelancer, or self-employed'
+ 'Not employed, but looking for work']
+
+
+FormalEducation
+Which of the following best describes the highest level of formal education that you've completed?
+['Secondary school'
+ "Some college/university study without earning a bachelor's degree"
+ "Bachelor's degree" 'Doctoral degree' "Master's degree"]
+
+
+MajorUndergrad
+Which of the following best describes your main field of study (aka 'major') in college or university/for your undergraduate studies?
+[nan 'Computer science or software engineering'
+ 'A non-computer-focused engineering discipline' 'A social science'
+ 'Mathematics or statistics']
+
+
+HomeRemote
+How often do you work from home or remotely?
+[nan 'More than half, but not all, the time'
+ 'Less than half the time, but at least one day each week' 'Never'
+ "All or almost all the time (I'm full-time remote)"]
+
+
+CompanySize
+In terms of the number of employees, how large is the company or organization you work for?
+[nan '20 to 99 employees' '10,000 or more employees' '10 to 19 employees'
+ 'Fewer than 10 employees']
+
+
+CompanyType
+Which of the following best describes the type of company or organization you work for?
+[nan 'Privately-held limited company, not in startup mode'
+ 'Publicly-traded corporation'
+ 'Non-profit/non-governmental organization or private school/university'
+ 'Government agency or public school/university']
+
+
+YearsProgram
+How long has it been since you first learned how to program?
+['2 to 3 years' '9 to 10 years' '20 or more years' '14 to 15 years'
+ '6 to 7 years']
+
+
+YearsCodedJob
+For how many years have you coded as part of your job?
+[nan '20 or more years' '9 to 10 years' '10 to 11 years' '8 to 9 years']
+
+
+YearsCodedJobPast
+For how many years did you code as part of your job?
+[nan '17 to 18 years' '5 to 6 years' '19 to 20 years' '7 to 8 years']
+
+
+DeveloperType
+Which of the following best describe you?
+[nan 'Other'
+ 'Mobile developer; Graphics programming; Desktop applications developer'
+ 'Web developer' 'Web developer; Mobile developer']
+
+
+WebDeveloperType
+Which of the following best describes you as a Web developer?
+[nan 'Full stack Web developer' 'Back-end Web developer'
+ 'Front-end Web developer']
+
+
+MobileDeveloperType
+For which of the following platforms do you develop mobile applications?
+[nan 'Android' 'iOS' 'Windows Phone' 'iOS; Android']
+
+
+NonDeveloperType
+Which of the following describe you?
+[nan 'Data scientist' 'Other' 'C-suite executive; Product manager'
+ 'Educator or academic']
+
+
+CareerSatisfaction
+Career satisfaction rating
+[nan  8.  6.  7.  3.]
+
+
+JobSatisfaction
+Job satisfaction rating
+[nan  9.  3.  8.  6.]
+
+
+ExCoderReturn
+You said before that you used to code as part of your job, but no longer do. To what extent do you agree or disagree with the following statements? If money weren't an issue, I would take a coding job again
+[nan 'Agree' 'Somewhat agree' 'Disagree' 'Strongly disagree']
+
+
+ExCoderNotForMe
+You said before that you used to code as part of your job, but no longer do. To what extent do you agree or disagree with the following statements? Working as a developer just wasn't for me
+[nan 'Strongly disagree' 'Disagree' 'Strongly agree' 'Somewhat agree']
+
+
+ExCoderBalance
+You said before that you used to code as part of your job, but no longer do. To what extent do you agree or disagree with the following statements? I have better work-life balance now than I did as a developer
+[nan 'Disagree' 'Agree' 'Strongly disagree' 'Strongly agree']
+
+
+ExCoder10Years
+You said before that you used to code as part of your job, but no longer do. To what extent do you agree or disagree with the following statements? My career is going the way I thought it would 10 years ago
+[nan 'Strongly disagree' 'Somewhat agree' 'Agree' 'Disagree']
+
+
+ExCoderBelonged
+You said before that you used to code as part of your job, but no longer do. To what extent do you agree or disagree with the following statements? When I was a developer, I didn't feel like I belonged with my colleagues
+[nan 'Disagree' 'Strongly disagree' 'Strongly agree' 'Agree']
+
+
+ExCoderSkills
+You said before that you used to code as part of your job, but no longer do. To what extent do you agree or disagree with the following statements? I don't think my coding skills are up to date
+[nan 'Strongly disagree' 'Somewhat agree' 'Disagree' 'Agree']
+
+
+ExCoderWillNotCode
+You said before that you used to code as part of your job, but no longer do. To what extent do you agree or disagree with the following statements? I probably won't code for a living ever again
+[nan 'Disagree' 'Somewhat agree' 'Agree' 'Strongly disagree']
+
+
+ExCoderActive
+You said before that you used to code as part of your job, but no longer do. To what extent do you agree or disagree with the following statements? I'm still active in the developer community
+[nan 'Somewhat agree' 'Agree' 'Disagree' 'Strongly agree']
+
+
+PronounceGIF
+How do you pronounce "GIF"?
+['With a soft "g," like "jiff"' 'With a hard "g," like "gift"'
+ 'Some other way' 'Enunciating each letter: "gee eye eff"' nan]
+
+
+ProblemSolving
+I love solving problems
+['Strongly agree' nan 'Agree' 'Somewhat agree' 'Disagree']
+
+
+BuildingThings
+Building things is very rewarding
+['Strongly agree' nan 'Agree' 'Somewhat agree' 'Disagree']
+
+
+LearningNewTech
+Learning new technologies is fun
+['Agree' nan 'Strongly agree' 'Somewhat agree' 'Disagree']
+
+
+BoringDetails
+I tend to get bored by implementation details
+['Disagree' nan 'Somewhat agree' 'Strongly disagree' 'Strongly agree']
+
+
+JobSecurity
+Job security is important to me
+['Strongly agree' nan 'Agree' 'Somewhat agree' 'Strongly disagree']
+
+
+DiversityImportant
+Diversity in the workplace is important
+['Agree' nan 'Strongly agree' 'Somewhat agree' 'Strongly disagree']
+
+
+AnnoyingUI
+It annoys me when software has a poor UI
+['Agree' nan 'Strongly agree' 'Somewhat agree' 'Disagree']
+
+
+FriendsDevelopers
+Most of my friends are developers, engineers, or scientists
+['Disagree' nan 'Somewhat agree' 'Agree' 'Strongly disagree']
+
+
+RightWrongWay
+There's a right and a wrong way to do everything
+['Somewhat agree' nan 'Disagree' 'Agree' 'Strongly disagree']
+
+
+UnderstandComputers
+Honestly, there's a lot about computers that I just don't understand
+['Disagree' nan 'Strongly disagree' 'Strongly agree' 'Somewhat agree']
+
+
+SeriousWork
+I take my work very seriously
+['Strongly agree' nan 'Agree' 'Somewhat agree' 'Disagree']
+
+
+InvestTimeTools
+I invest a lot of time into the tools I use
+['Strongly agree' nan 'Somewhat agree' 'Agree' 'Disagree']
+
+
+WorkPayCare
+I don't really care what I work on, so long as I'm paid well
+['Strongly disagree' nan 'Disagree' 'Somewhat agree' 'Strongly agree']
+
+
+KinshipDevelopers
+I feel a sense of kinship to other developers
+['Agree' nan 'Somewhat agree' 'Strongly agree' 'Disagree']
+
+
+ChallengeMyself
+I like to challenge myself
+['Agree' nan 'Strongly agree' 'Somewhat agree' 'Disagree']
+
+
+CompetePeers
+I think of myself as competing with my peers
+['Disagree' nan 'Somewhat agree' 'Strongly agree' 'Strongly disagree']
+
+
+ChangeWorld
+I want to change the world
+['Agree' nan 'Somewhat agree' 'Strongly agree' 'Disagree']
+
+
+JobSeekingStatus
+Which of the following best describes your current job-seeking status?
+["I'm not actively looking, but I am open to new opportunities" nan
+ 'I am actively looking for a job'
+ 'I am not interested in new job opportunities']
+
+
+HoursPerWeek
+During a typical week, approximately how many hours do you spend on activities related to finding new job opportunities?Please adjust the slider to the appropriate number of hours. The box to the right will indicate the number of hours you have chosen.
+[ 0. nan  5.  1.  2.]
+
+
+LastNewJob
+When was the last time that you took a job with a new employer?
+['Not applicable/ never' nan 'Between 2 and 4 years ago'
+ 'More than 4 years ago' 'Less than a year ago']
+
+
+AssessJobIndustry
+When you're assessing potential jobs to apply to, how important are each of the following to you? The industry that I'd be working in
+['Very important' nan 'Somewhat important' 'Important'
+ 'Not very important']
+
+
+AssessJobRole
+When you're assessing potential jobs to apply to, how important are each of the following to you? The specific role or job title I'd be applying for
+['Very important' nan 'Somewhat important' 'Important'
+ 'Not very important']
+
+
+AssessJobExp
+When you're assessing potential jobs to apply to, how important are each of the following to you? The experience level called for in the job description
+['Important' nan 'Somewhat important' 'Not very important'
+ 'Not at all important']
+
+
+AssessJobDept
+When you're assessing potential jobs to apply to, how important are each of the following to you? The specific department or team I'd be working on
+['Very important' nan 'Important' 'Somewhat important'
+ 'Not very important']
+
+
+AssessJobTech
+When you're assessing potential jobs to apply to, how important are each of the following to you? The languages, frameworks, and other technologies I'd be working with
+['Very important' nan 'Important' 'Somewhat important'
+ 'Not very important']
+
+
+AssessJobProjects
+When you're assessing potential jobs to apply to, how important are each of the following to you? How projects are managed at the company or organization
+['Very important' nan 'Somewhat important' 'Important'
+ 'Not very important']
+
+
+AssessJobCompensation
+When you're assessing potential jobs to apply to, how important are each of the following to you? The compensation and benefits offered
+['Important' nan 'Very important' 'Somewhat important'
+ 'Not at all important']
+
+
+AssessJobOffice
+When you're assessing potential jobs to apply to, how important are each of the following to you? The office environment I'd be working in
+['Very important' nan 'Somewhat important' 'Important'
+ 'Not at all important']
+
+
+AssessJobCommute
+When you're assessing potential jobs to apply to, how important are each of the following to you? The amount of time I'd have to spend commuting
+['Very important' nan 'Important' 'Somewhat important'
+ 'Not very important']
+
+
+AssessJobRemote
+When you're assessing potential jobs to apply to, how important are each of the following to you? The opportunity to work from home/remotely
+['Very important' nan 'Somewhat important' 'Not at all important'
+ 'Important']
+
+
+AssessJobLeaders
+When you're assessing potential jobs to apply to, how important are each of the following to you? The reputations of the company's senior leaders
+['Very important' nan 'Not very important' 'Not at all important'
+ 'Somewhat important']
+
+
+AssessJobProfDevel
+When you're assessing potential jobs to apply to, how important are each of the following to you? Opportunities for professional development
+['Very important' nan 'Somewhat important' 'Important'
+ 'Not very important']
+
+
+AssessJobDiversity
+When you're assessing potential jobs to apply to, how important are each of the following to you? The diversity of the company or organization
+['Somewhat important' nan 'Important' 'Not very important'
+ 'Not at all important']
+
+
+AssessJobProduct
+When you're assessing potential jobs to apply to, how important are each of the following to you? How widely used or impactful the product or service I'd be working on is
+['Not very important' nan 'Very important' 'Somewhat important'
+ 'Important']
+
+
+AssessJobFinances
+When you're assessing potential jobs to apply to, how important are each of the following to you? The financial performance or funding status of the company or organization
+['Somewhat important' nan 'Very important' 'Not very important'
+ 'Important']
+
+
+ImportantBenefits
+When it comes to compensation and benefits, other than base salary, which of the following are most important to you?
+['Stock options; Vacation/days off; Remote options' nan
+ 'Stock options; Annual bonus; Health benefits; Equipment; Private office'
+ 'Vacation/days off; Expected work hours'
+ 'Health benefits; Equipment; Professional development sponsorship; Education sponsorship; Remote options']
+
+
+ClickyKeys
+If two developers are sharing an office, is it OK for one of them to get a mechanical keyboard with loud "clicky" keys?
+['Yes' 'No' nan]
+
+
+JobProfile
+On which of the following sites do you maintain a profile, CV, or resumé?
+['Other' nan 'LinkedIn; Other' 'LinkedIn' 'LinkedIn; Monster; Other']
+
+
+ResumePrompted
+Think back to the last time you updated your resumé, CV, or an online profile on a job site. What prompted you to do so?
+[nan 'A recruiter contacted me' 'I was just giving it a regular update'
+ 'I completed a major project, assignment, or contract'
+ 'I received bad news about the future of my company or depart']
+
+
+LearnedHiring
+Think back to when you first applied to work for your current employer. Which of the following best describes how you learned that they were hiring for that particular job?
+[nan 'Some other way'
+ 'A friend, family member, or former colleague told me'
+ 'A tech-specific job board'
+ "I visited the company's Web site and found a job listing there"]
+
+
+ImportantHiringAlgorithms
+Congratulations! You've just been put in charge of technical recruiting at Globex, a multinational high- tech firm. This job comes with a corner office, and you have an experienced staff of recruiters at your disposal. They want to know what they should prioritize when recruiting software developers. How important should each of the following be in Globex's hiring process? Knowledge of algorithms and data structures
+['Important' nan 'Somewhat important' 'Not very important'
+ 'Very important']
+
+
+ImportantHiringTechExp
+Congratulations! You've just been put in charge of technical recruiting at Globex, a multinational high- tech firm. This job comes with a corner office, and you have an experienced staff of recruiters at your disposal. They want to know what they should prioritize when recruiting software developers. How important should each of the following be in Globex's hiring process? Experience with specific tools (libraries, frameworks, etc.) used by the employer
+['Important' nan 'Somewhat important' 'Not very important'
+ 'Very important']
+
+
+ImportantHiringCommunication
+Congratulations! You've just been put in charge of technical recruiting at Globex, a multinational high- tech firm. This job comes with a corner office, and you have an experienced staff of recruiters at your disposal. They want to know what they should prioritize when recruiting software developers. How important should each of the following be in Globex's hiring process? Communication skills
+['Important' nan 'Very important' 'Not very important'
+ 'Not at all important']
+
+
+ImportantHiringOpenSource
+Congratulations! You've just been put in charge of technical recruiting at Globex, a multinational high- tech firm. This job comes with a corner office, and you have an experienced staff of recruiters at your disposal. They want to know what they should prioritize when recruiting software developers. How important should each of the following be in Globex's hiring process? Contributions to open source projects
+['Somewhat important' 'Important' nan 'Very important'
+ 'Not at all important']
+
+
+ImportantHiringPMExp
+Congratulations! You've just been put in charge of technical recruiting at Globex, a multinational high- tech firm. This job comes with a corner office, and you have an experienced staff of recruiters at your disposal. They want to know what they should prioritize when recruiting software developers. How important should each of the following be in Globex's hiring process? Experience with specific project management tools & techniques
+['Important' 'Somewhat important' nan 'Not very important'
+ 'Not at all important']
+
+
+ImportantHiringCompanies
+Congratulations! You've just been put in charge of technical recruiting at Globex, a multinational high- tech firm. This job comes with a corner office, and you have an experienced staff of recruiters at your disposal. They want to know what they should prioritize when recruiting software developers. How important should each of the following be in Globex's hiring process? Previous companies worked at
+['Not very important' 'Somewhat important' nan 'Not at all important'
+ 'Important']
+
+
+ImportantHiringTitles
+Congratulations! You've just been put in charge of technical recruiting at Globex, a multinational high- tech firm. This job comes with a corner office, and you have an experienced staff of recruiters at your disposal. They want to know what they should prioritize when recruiting software developers. How important should each of the following be in Globex's hiring process? Previous job titles held
+['Not very important' nan 'Somewhat important' 'Not at all important'
+ 'Important']
+
+
+ImportantHiringEducation
+Congratulations! You've just been put in charge of technical recruiting at Globex, a multinational high- tech firm. This job comes with a corner office, and you have an experienced staff of recruiters at your disposal. They want to know what they should prioritize when recruiting software developers. How important should each of the following be in Globex's hiring process? Educational credentials (e.g. schools attended, specific field of study, grades earned)
+['Not at all important' 'Somewhat important' nan 'Not very important'
+ 'Important']
+
+
+ImportantHiringRep
+Congratulations! You've just been put in charge of technical recruiting at Globex, a multinational high- tech firm. This job comes with a corner office, and you have an experienced staff of recruiters at your disposal. They want to know what they should prioritize when recruiting software developers. How important should each of the following be in Globex's hiring process? Stack Overflow reputation
+['Somewhat important' 'Not very important' nan 'Important'
+ 'Not at all important']
+
+
+ImportantHiringGettingThingsDone
+Congratulations! You've just been put in charge of technical recruiting at Globex, a multinational high- tech firm. This job comes with a corner office, and you have an experienced staff of recruiters at your disposal. They want to know what they should prioritize when recruiting software developers. How important should each of the following be in Globex's hiring process? Track record of getting things done
+['Very important' nan 'Not very important' 'Important'
+ 'Somewhat important']
+
+
+Currency
+Which currency do you use day-to-day? If you're a globe-trotting digital nomad and the answer is “it's complicated,” please pick the one you're most comfortable estimating in.
+[nan 'British pounds sterling (£)' 'Canadian dollars (C$)'
+ 'U.S. dollars ($)' 'Euros (€)']
+
+
+Overpaid
+Compared to your estimate of your own market value, do you think you are…?
+[nan 'Neither underpaid nor overpaid' 'Somewhat underpaid'
+ 'Somewhat overpaid' 'Greatly underpaid']
+
+
+TabsSpaces
+Tabs or spaces?
+['Tabs' 'Spaces' nan 'Both']
+
+
+EducationImportant
+Overall, how important has your formal schooling and education been to your career success?
+[nan 'Not very important' 'Important' 'Somewhat important'
+ 'Not at all important']
+
+
+EducationTypes
+Outside of your formal schooling and education, which of the following have you done?
+['Online course; Open source contributions'
+ 'Online course; Self-taught; Hackathon; Open source contributions'
+ 'Self-taught; Coding competition; Hackathon; Open source contributions'
+ nan 'Self-taught; Hackathon; Open source contributions']
+
+
+SelfTaughtTypes
+You indicated that you had taught yourself a programming technology without taking a course. What resources did you use to do that? If you've done it more than once, please think about the most recent time you've done so.
+[nan 'Official documentation; Stack Overflow Q&A; Other'
+ 'Official documentation; Trade book; Textbook; Stack Overflow Q&A; Non-Stack online communities; Company internal community; Friends network; Built-in help; Other'
+ 'Official documentation; Stack Overflow Q&A; Non-Stack online communities; Built-in help'
+ 'Official documentation; Trade book; Textbook; Stack Overflow Q&A; Friends network; Built-in help']
+
+
+TimeAfterBootcamp
+You indicated previously that you went through a developer “bootcamp.” How long did it take you to get a full-time job as a developer after graduating?
+[nan 'I already had a job as a developer when I started the program'
+ 'Immediately upon graduating' 'One to three months' 'Less than a month']
+
+
+CousinEducation
+Let's pretend you have a distant cousin. They are 24 years old, have a college degree in a field not related to computer programming, and have been working a non-coding job for the last two years. They want your advice on how to switch to a career as a software developer. Which of the following options would you most strongly recommend to your cousin?
+Let's pretend you have a distant cousin named Robert. He is 24 years old, has a college degree in a field not related to computer programming, and has been working a non-coding job for the last two years. He wants your advice on how to switch to a career as a software developer. Which of the following options would you most strongly recommend to Robert?
+Let's pretend you have a distant cousin named Alice. She is 24 years old, has a college degree in a field not related to computer programming, and has been working a non-coding job for the last two years. She wants your advice on how to switch to a career as a software developer. Which of the following options would you most strongly recommend to Alice?
+[nan 'Get a job as a QA tester'
+ 'Get a job as a QA tester; Conferences/meet-ups'
+ 'Take online courses; Contribute to open source; Buy books and work through the exercises; Conferences/meet-ups'
+ 'Contribute to open source; Buy books and work through the exercises; Other']
+
+
+WorkStart
+Suppose you could choose your own working hours for an 8-hour day. What time would you start work for the day? Please adjust the slider to the hour nearest your ideal start time. The box next to the slider will display your selection using a 24-hour clock
+['6:00 AM' '10:00 AM' '9:00 AM' nan '7:00 AM']
+
+
+HaveWorkedLanguage
+Which of the following languages have you done extensive development work in over the past year, and which do you want to work in over the next year?
+['Swift' 'JavaScript; Python; Ruby; SQL' 'Java; PHP; Python'
+ 'Matlab; Python; R; SQL' nan]
+
+
+WantWorkLanguage
+Which of the following languages have you done extensive development work in over the past year, and which do you want to work in over the next year?
+['Swift' 'Java; Python; Ruby; SQL' 'C; Python; Rust'
+ 'Matlab; Python; R; SQL' nan]
+
+
+HaveWorkedFramework
+Which of the following libraries, frameworks, and tools have you done extensive development work in over the past year, and which do you want to work in over the next year?
+[nan '.NET Core' 'React' 'AngularJS; Node.js; .NET Core'
+ 'AngularJS; Node.js; React; Cordova']
+
+
+WantWorkFramework
+Which of the following libraries, frameworks, and tools have you done extensive development work in over the past year, and which do you want to work in over the next year?
+[nan '.NET Core' 'Hadoop; Node.js; React' 'Hadoop; Node.js'
+ 'Hadoop; React; Spark']
+
+
+HaveWorkedDatabase
+Which of the following database technologies have you done extensive development work in over the past year, and which do you want to work in over the next year?
+[nan 'MySQL; SQLite' 'MySQL' 'MongoDB; Redis; SQL Server; MySQL; SQLite'
+ 'SQLite']
+
+
+WantWorkDatabase
+Which of the following database technologies have you done extensive development work in over the past year, and which do you want to work in over the next year?
+[nan 'MySQL; SQLite' 'MongoDB; Redis; SQL Server; MySQL; SQLite'
+ 'MongoDB; SQL Server; PostgreSQL; SQLite' 'Cassandra; Redis']
+
+
+HaveWorkedPlatform
+Which of the following platforms have you done extensive development work for over the past year, and which do you want to work on over the next year?
+['iOS' 'Amazon Web Services (AWS)' nan
+ 'Windows Desktop; Linux Desktop; Mac OS; Amazon Web Services (AWS)'
+ 'Linux Desktop; Amazon Web Services (AWS)']
+
+
+WantWorkPlatform
+Which of the following platforms have you done extensive development work for over the past year, and which do you want to work on over the next year?
+['iOS' 'Linux Desktop; Raspberry Pi; Amazon Web Services (AWS)' nan
+ 'Windows Desktop; Linux Desktop; Mac OS; Amazon Web Services (AWS)'
+ 'Linux Desktop']
+
+
+IDE
+Which development environment(s) do you use regularly?
+['Atom; Xcode'
+ 'Atom; Notepad++; Vim; PyCharm; RubyMine; Visual Studio; Visual Studio Code'
+ 'Sublime Text; Vim; IntelliJ'
+ 'Notepad++; Sublime Text; TextMate; Vim; IPython / Jupyter; NetBeans; PyCharm; Xcode'
+ nan]
+
+
+AuditoryEnvironment
+Suppose you're about to start a few hours of coding and have complete control over your auditory environment (music, background noise, etc.). What would you do?
+['Turn on some music'
+ 'Put on some ambient sounds (e.g. whale songs, forest sounds)' nan
+ 'Keep the room absolutely quiet' 'Something else']
+
+
+Methodology
+Which of the following methodologies do you have experience working in?
+[nan 'Agile; Lean; Scrum; Extreme; Pair; Kanban' 'Agile'
+ 'Agile; Pair; Kanban' 'Agile; Scrum; Pair; Kanban; Domain-driven design']
+
+
+VersionControl
+What version control system do you use? If you use several, please choose the one you use most often.
+[nan 'Git' 'Mercurial' 'Zip file back-ups' 'Team Foundation Server']
+
+
+CheckInCode
+Over the last year, how often have you checked-in or committed code?
+[nan 'Multiple times a day' 'A few times a week'
+ 'Just a few times over the year' 'Never']
+
+
+ShipIt
+It's better to ship now and optimize later
+[nan 'Agree' 'Somewhat agree' 'Disagree' 'Strongly agree']
+
+
+OtherPeoplesCode
+Maintaining other people's code is a form of torture
+[nan 'Disagree' 'Agree' 'Somewhat agree' 'Strongly agree']
+
+
+ProjectManagement
+Most project management techniques are useless
+[nan 'Strongly disagree' 'Disagree' 'Somewhat agree' 'Agree']
+
+
+EnjoyDebugging
+I enjoy debugging code
+[nan 'Agree' 'Somewhat agree' 'Disagree' 'Strongly agree']
+
+
+InTheZone
+I often get “into the zone” when I'm coding
+[nan 'Somewhat agree' 'Agree' 'Strongly agree' 'Disagree']
+
+
+DifficultCommunication
+I have difficulty communicating my ideas to my peers
+[nan 'Disagree' 'Somewhat agree' 'Strongly disagree' 'Agree']
+
+
+CollaborateRemote
+It's harder to collaborate with remote peers than those on site
+[nan 'Strongly disagree' 'Somewhat agree' 'Agree' 'Disagree']
+
+
+MetricAssess
+Congratulations! The bosses at your new employer, E Corp, are allowing you to choose which metrics will be used to assess your individual performance in your role as a senior developer. Which metrics do you suggest to the E bosses?
+[nan
+ "Customer satisfaction; On time/in budget; Peers' rating; Self-rating"
+ "Customer satisfaction; Benchmarked product performance; Manager's rating; Self-rating; Other"
+ "Benchmarked product performance; On time/in budget; Revenue performance; Peers' rating"
+ "Release frequency; Customer satisfaction; Revenue performance; Peers' rating"]
+
+
+EquipmentSatisfiedMonitors
+Thinking about your main coding workstation, how satisfied are you with each of the following? Monitors/screens (number of, size, resolution)
+['Somewhat satisfied' 'Not very satisfied' 'Very satisfied' nan
+ 'Satisfied']
+
+
+EquipmentSatisfiedCPU
+Thinking about your main coding workstation, how satisfied are you with each of the following? Processing power (CPU and/or GPU)
+['Not very satisfied' 'Satisfied' 'Somewhat satisfied' nan
+ 'Very satisfied']
+
+
+EquipmentSatisfiedRAM
+Thinking about your main coding workstation, how satisfied are you with each of the following? Amount of RAM
+['Not at all satisfied' 'Satisfied' nan 'Very satisfied'
+ 'Not very satisfied']
+
+
+EquipmentSatisfiedStorage
+Thinking about your main coding workstation, how satisfied are you with each of the following? Storage capacity
+['Very satisfied' 'Satisfied' nan 'Somewhat satisfied'
+ 'Not very satisfied']
+
+
+EquipmentSatisfiedRW
+Thinking about your main coding workstation, how satisfied are you with each of the following? Storage read/write speed
+['Satisfied' 'Somewhat satisfied' nan 'Very satisfied'
+ 'Not very satisfied']
+
+
+InfluenceInternet
+How much influence do you have on purchasing decisions within your organization for each of the following? Internet bandwidth
+['Not very satisfied' 'Satisfied' 'Very satisfied' nan
+ 'Somewhat satisfied']
+
+
+InfluenceWorkstation
+How much influence do you have on purchasing decisions within your organization for each of the following? Your personal workstation hardware
+[nan 'No influence at all' 'A lot of influence' 'Some influence'
+ 'I am the final decision maker']
+
+
+InfluenceHardware
+How much influence do you have on purchasing decisions within your organization for each of the following? Personal workstation hardware for others in the company
+[nan 'No influence at all' 'Some influence' 'Not much influence'
+ 'A lot of influence']
+
+
+InfluenceServers
+How much influence do you have on purchasing decisions within your organization for each of the following? Servers
+[nan 'No influence at all' 'Some influence' 'Not much influence'
+ 'I am the final decision maker']
+
+
+InfluenceTechStack
+How much influence do you have on purchasing decisions within your organization for each of the following? Main technical stack of the company
+[nan 'No influence at all' 'Some influence' 'Not much influence'
+ 'I am the final decision maker']
+
+
+InfluenceDeptTech
+How much influence do you have on purchasing decisions within your organization for each of the following? Technical stack used in your department
+[nan 'No influence at all' 'A lot of influence' 'Some influence'
+ 'I am the final decision maker']
+
+
+InfluenceVizTools
+How much influence do you have on purchasing decisions within your organization for each of the following? Data analysis and visualization tools (e.g. Tableau, Looker)
+[nan 'No influence at all' 'Some influence' 'A lot of influence'
+ 'Not much influence']
+
+
+InfluenceDatabase
+How much influence do you have on purchasing decisions within your organization for each of the following? Database systems or solutions
+[nan 'No influence at all' 'Some influence' 'Not much influence'
+ 'I am the final decision maker']
+
+
+InfluenceCloud
+How much influence do you have on purchasing decisions within your organization for each of the following? Cloud or serverless back-end solutions
+[nan 'No influence at all' 'Some influence' 'Not much influence'
+ 'I am the final decision maker']
+
+
+InfluenceConsultants
+How much influence do you have on purchasing decisions within your organization for each of the following? Consultants
+[nan 'No influence at all' 'Some influence' 'Not much influence'
+ 'A lot of influence']
+
+
+InfluenceRecruitment
+How much influence do you have on purchasing decisions within your organization for each of the following? Recruitment tools & platforms
+[nan 'No influence at all' 'Some influence' 'Not much influence'
+ 'A lot of influence']
+
+
+InfluenceCommunication
+How much influence do you have on purchasing decisions within your organization for each of the following? Communication & collaboration tools
+[nan 'No influence at all' 'Some influence' 'Not much influence'
+ 'A lot of influence']
+
+
+StackOverflowDescribes
+Which of the following best describes you?
+['I have created a CV or Developer Story on Stack Overflow' nan
+ "I have a login for Stack Overflow, but haven't created a CV or Developer Story"
+ "I've visited Stack Overflow, but haven't logged in/created an account"
+ "I'd never heard of Stack Overflow before today"]
+
+
+StackOverflowSatisfaction
+Stack Overflow satisfaction
+[ 9.  8. 10. nan  6.]
+
+
+StackOverflowDevices
+Which of the following devices have you used to connect to Stack Overflow over the last three months?
+['Desktop; iOS app'
+ 'Desktop; iOS browser; iOS app; Android browser; Android app'
+ 'Desktop; iOS browser; iOS app' nan
+ 'Desktop; iOS browser; Android browser']
+
+
+StackOverflowFoundAnswer
+Over the last three months, approximately how often have you done each of the following on Stack Overflow? Found an answer that solved my coding problem
+['At least once each week' 'Several times' 'Once or twice' nan
+ 'At least once each day']
+
+
+StackOverflowCopiedCode
+Over the last three months, approximately how often have you done each of the following on Stack Overflow? Copied a code example and pasted it into my codebase
+["Haven't done at all" 'Several times' nan 'Once or twice'
+ 'At least once each week']
+
+
+StackOverflowJobListing
+Over the last three months, approximately how often have you done each of the following on Stack Overflow? Seen a job listing I was interested in
+['Once or twice' "Haven't done at all" 'At least once each week' nan
+ 'Several times']
+
+
+StackOverflowCompanyPage
+Over the last three months, approximately how often have you done each of the following on Stack Overflow? Researched a potential employer by visiting its company page
+["Haven't done at all" 'Once or twice' 'Several times' nan
+ 'At least once each week']
+
+
+StackOverflowJobSearch
+Over the last three months, approximately how often have you done each of the following on Stack Overflow? Searched for jobs
+["Haven't done at all" 'Once or twice' 'At least once each week' nan
+ 'Several times']
+
+
+StackOverflowNewQuestion
+Over the last three months, approximately how often have you done each of the following on Stack Overflow? Asked a new question
+['Several times' "Haven't done at all" nan 'Once or twice'
+ 'At least once each week']
+
+
+StackOverflowAnswer
+Over the last three months, approximately how often have you done each of the following on Stack Overflow? Written a new answer to someone else's question
+['Several times' 'At least once each day' nan "Haven't done at all"
+ 'Once or twice']
+
+
+StackOverflowMetaChat
+Over the last three months, approximately how often have you done each of the following on Stack Overflow? Participated in community discussions on meta or in chat
+['Once or twice' 'At least once each week' 'At least once each day' nan
+ "Haven't done at all"]
+
+
+StackOverflowAdsRelevant
+The ads on Stack Overflow are relevant to me
+['Somewhat agree' 'Disagree' 'Agree' nan 'Strongly disagree']
+
+
+StackOverflowAdsDistracting
+The ads on Stack Overflow are distracting
+['Strongly disagree' 'Disagree' nan 'Strongly agree' 'Somewhat agree']
+
+
+StackOverflowModeration
+The moderation on Stack Overflow is unfair
+['Strongly disagree' nan 'Agree' 'Disagree' 'Somewhat agree']
+
+
+StackOverflowCommunity
+I feel like a member of the Stack Overflow community
+['Strongly agree' nan 'Strongly disagree' 'Agree' 'Somewhat agree']
+
+
+StackOverflowHelpful
+The answers and code examples I get on Stack Overflow are helpful
+['Agree' 'Strongly agree' nan 'Somewhat agree' 'Disagree']
+
+
+StackOverflowBetter
+Stack Overflow makes the Internet a better place
+['Strongly agree' 'Agree' nan 'Somewhat agree' 'Disagree']
+
+
+StackOverflowWhatDo
+I don't know what I'd do without Stack Overflow
+['Strongly agree' 'Agree' nan 'Disagree' 'Somewhat agree']
+
+
+StackOverflowMakeMoney
+The people who run Stack Overflow are just in it for the money
+['Strongly disagree' 'Disagree' nan 'Somewhat agree' 'Agree']
+
+
+Gender
+Which of the following do you currently identify as?
+['Male' nan 'Female' 'Gender non-conforming' 'Other']
+
+
+HighestEducationParents
+What is the highest level of education received by either of your parents?
+['High school' "A master's degree" 'A professional degree'
+ 'A doctoral degree' nan]
+
+
+Race
+Which of the following do you identify as?
+['White or of European descent' nan 'Hispanic or Latino/Latina'
+ 'Native American, Pacific Islander, or Indigenous Australian; White or of European descent'
+ 'I prefer not to say']
+
+
+SurveyLong
+This survey was too long
+['Strongly disagree' 'Somewhat agree' 'Agree' nan 'Disagree']
+
+
+QuestionsInteresting
+The questions were interesting
+['Strongly agree' 'Somewhat agree' 'Agree' nan 'Disagree']
+
+
+QuestionsConfusing
+The questions were confusing
+['Disagree' 'Somewhat agree' nan 'Strongly disagree' 'Agree']
+
+
+InterestedAnswers
+I'm interested in learning how other developers answered
+['Strongly agree' 'Agree' nan 'Somewhat agree' 'Disagree']
+
+
+Salary
+What is your current annual base salary, before taxes, and excluding bonuses, grants, or other compensation?
+[    nan 113750. 100000. 130000.  82500.]
+
+
+ExpectedSalary
+You said before that you are currently learning how to program. When you have completed your studies, what annual salary do you expect to earn in your first job after graduation?
+[           nan 37500.         70000.         86021.50537634
+ 31250.        ]
