@@ -1,7 +1,10 @@
+# A StackOverflow Survey Analysis
+The article written on this project can be found here: [A StackOverflow Survey Analysis](https://medium.com/@kevingao1136/a-stackoverflow-survey-analysis-e44130a3c82b)
+
 ![](https://venturebeat.com/wp-content/uploads/2018/05/stack-overflow-logo.png?w=1200&strip=all)
 
 # Project Motivation
-This is the first project from the Data Science Nanodegree program from Udacity. I chose to analyze survey results from stackoverflow because I am trying to break into the tech industry from a non-technical background, and it would be helpful for me and people like me to gain some insights from this analysis.
+The goal of the project is to write a blog post on Medium to practice my communication and story-telling skills through readable code, clean visuals, and well-structured project layout following the CRISP-DM process. I chose to analyze survey results from stackoverflow because I am trying to break into the tech industry from a non-technical background, and it would be helpful for me and people like me to gain some insights from this analysis.
 
 In this project, I analyzed the 2017 StackOverflow survey results, in attempt to answer the following questions:
 
@@ -18,8 +21,6 @@ In this project, I analyzed the 2017 StackOverflow survey results, in attempt to
 - **col_descriptions.txt** - a text file I created to capture each column description along with 3 unique values from that column for easier and quicker data understanding
 
 # Results and Findings
-The article written on this project can be found here: [A StackOverflow Survey Analysis](https://medium.com/@kevingao1136/a-stackoverflow-survey-analysis-e44130a3c82b)
-
 - The top 3 most valued skills in the tech industry are ranked as the following: **“getting things done”, “communication”, and “algorithms and data structures”**.
 - The top 3 advice for you to break into the field is **“take online courses”, “buy books and work through the exercises”, and “contribute to open sources”**.
 - People with advanced degrees tend to have higher salaries around the 50K income level. However, people who **earn much higher than 50K hold either advanced or non-advanced degrees!**
