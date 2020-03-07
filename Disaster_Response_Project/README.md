@@ -12,11 +12,17 @@ The project consists of three parts:
 1. Run the following commands in the project's root directory to set up your database, train and save the model, and run the web app
 
     - Run the ETL pipeline that cleans raw data and stores into a database
-        `python data/ETL_pipeline.py data/messages.csv data/categories.csv data/responses.db`
+        ```
+        python data/ETL_pipeline.py data/messages.csv data/categories.csv data/responses.db
+        ```
     - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/responses.db models/classifier.pkl`
+        ```
+        python models/train_classifier.py data/responses.db models/classifier.pkl
+        ```
 
 2. cd into the app's directory, and run the web app
-    `python run.py`
+    ```
+    python run.py
+    ```
 
 3. Go to http://0.0.0.0:3001/
