@@ -8,6 +8,12 @@ The project consists of three parts:
 - Machine Learning pipeline: tokenized and normalized raw text data, extracted features, and built a Machine Learning model to classify message into 36 disaster categories
 - Flask Web Application: showcase interactive visuals from the dataset as well as classify ad-hoc user inputs
 
+## Installation
+Git this repo by 
+```
+git clone https://github.com/kevingao1136/DataScience_Udacity/tree/master/Disaster_Response_Project
+```
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database, train and save the model, and run the web app
 
