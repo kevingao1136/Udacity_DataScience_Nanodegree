@@ -17,6 +17,9 @@ from sklearn.ensemble import AdaBoostClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 import warnings
 warnings.filterwarnings('ignore')
 
