@@ -8,6 +8,8 @@ from flask import render_template, request, jsonify
 from plotly.graph_objs import Bar
 import joblib
 from sqlalchemy import create_engine
+import warnings
+warnings.filterwarnings('ignore')
 
 
 app = Flask(__name__)
