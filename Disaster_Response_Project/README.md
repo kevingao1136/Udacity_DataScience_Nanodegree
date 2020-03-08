@@ -27,6 +27,28 @@ The project consists of three parts:
 
 3. Go to http://0.0.0.0:3001/
 
+# Dependencies
+Click==7.0
+Flask==1.1.1
+itsdangerous==1.1.0
+Jinja2==2.11.1
+joblib==0.14.1
+MarkupSafe==1.1.1
+nltk==3.4.5
+numpy==1.18.1
+pandas==1.0.1
+plotly==4.5.3
+python-dateutil==2.8.1
+pytz==2019.3
+retrying==1.3.3
+scikit-learn==0.22.2.post1
+scipy==1.4.1
+six==1.14.0
+sklearn==0.0
+SQLAlchemy==1.3.13
+Werkzeug==1.0.0
+
+
 # Flask Web App
 ![alt text](https://github.com/kevingao1136/DataScience_Udacity/blob/master/Disaster_Response_Project/screenshots/Screen%20Shot%202020-03-07%20at%203.44.47%20PM.png)
 ![alt text](https://github.com/kevingao1136/DataScience_Udacity/blob/master/Disaster_Response_Project/screenshots/Screen%20Shot%202020-03-07%20at%204.53.37%20PM.png)
