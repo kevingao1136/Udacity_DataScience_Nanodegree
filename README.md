@@ -7,4 +7,4 @@
 
 - [IBM Recommendation System](https://github.com/kevingao1136/DataScience_Udacity/tree/master/IBM%20Recommendation%20System%20Project)
 
-- [Starbucks Capstone Challenge](https://github.com/kevingao1136/DataScience_Udacity/tree/master/starbucks_capstone)
+- [Starbucks Capstone Challenge](https://github.com/kevingao1136/DataScience_Udacity/tree/master/Starbucks_Capstone_Challenge)
