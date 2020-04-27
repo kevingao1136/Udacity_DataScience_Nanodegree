@@ -29,3 +29,46 @@ You'll also want to take into account that some demographic groups will make pur
 ### Final Advice
 
 Because this is a capstone project, you are free to analyze the data any way you see fit. For example, you could build a machine learning model that predicts how much someone will spend based on demographics and offer type. Or you could build a model that predicts whether or not someone will respond to an offer. Or, you don't need to build a machine learning model at all. You could develop a set of heuristics that determine what offer you should send to each customer (i.e., 75 percent of women customers who were 35 years old responded to offer A vs 40 percent from the same demographic to offer B, so send offer A).
+
+# Data Sets
+
+The data is contained in three files:
+
+* portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
+* profile.json - demographic data for each customer
+* transcript.json - records for transactions, offers received, offers viewed, and offers completed
+
+Here is the schema and explanation of each variable in the files:
+
+**portfolio.json**
+* id (string) - offer id
+* offer_type (string) - type of offer ie BOGO, discount, informational
+* difficulty (int) - minimum required spend to complete an offer
+* reward (int) - reward given for completing an offer
+* duration (int) - time for offer to be open, in days
+* channels (list of strings)
+
+**profile.json**
+* age (int) - age of the customer 
+* became_member_on (int) - date when customer created an app account
+* gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)
+* id (str) - customer id
+* income (float) - customer's income
+
+**transcript.json**
+* event (str) - record description (ie transaction, offer received, offer viewed, etc.)
+* person (str) - customer id
+* time (int) - time in hours since start of test. The data begins at time t=0
+* value - (dict of strings) - either an offer id or transaction amount depending on the record
+
+**Note:** If you are using the workspace, you will need to go to the terminal and run the command `conda update pandas` before reading in the files. This is because the version of pandas in the workspace cannot read in the transcript.json file correctly, but the newest version of pandas can. You can access the termnal from the orange icon in the top left of this notebook.  
+
+You can see how to access the terminal and how the install works using the two images below.  First you need to access the terminal:
+
+<img src="pic1.png"/>
+
+Then you will want to run the above command:
+
+<img src="pic2.png"/>
+
+Finally, when you enter back into the notebook (use the jupyter icon again), you should be able to run the below cell without any errors.
