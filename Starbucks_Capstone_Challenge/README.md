@@ -40,7 +40,7 @@ The data is contained in three files:
 
 Here is the schema and explanation of each variable in the files:
 
-**portfolio.json**
+**offers (portfolio.json)**
 * id (string) - offer id
 * offer_type (string) - type of offer ie BOGO, discount, informational
 * difficulty (int) - minimum required spend to complete an offer
@@ -48,27 +48,15 @@ Here is the schema and explanation of each variable in the files:
 * duration (int) - time for offer to be open, in days
 * channels (list of strings)
 
-**profile.json**
+**customers (profile.json)**
 * age (int) - age of the customer 
 * became_member_on (int) - date when customer created an app account
 * gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)
 * id (str) - customer id
 * income (float) - customer's income
 
-**transcript.json**
+**events (transcript.json)**
 * event (str) - record description (ie transaction, offer received, offer viewed, etc.)
 * person (str) - customer id
 * time (int) - time in hours since start of test. The data begins at time t=0
 * value - (dict of strings) - either an offer id or transaction amount depending on the record
-
-**Note:** If you are using the workspace, you will need to go to the terminal and run the command `conda update pandas` before reading in the files. This is because the version of pandas in the workspace cannot read in the transcript.json file correctly, but the newest version of pandas can. You can access the termnal from the orange icon in the top left of this notebook.  
-
-You can see how to access the terminal and how the install works using the two images below.  First you need to access the terminal:
-
-<img src="pic1.png"/>
-
-Then you will want to run the above command:
-
-<img src="pic2.png"/>
-
-Finally, when you enter back into the notebook (use the jupyter icon again), you should be able to run the below cell without any errors.
