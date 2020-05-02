@@ -1,5 +1,7 @@
 # DataScience_Udacity
 
+![](https://github.com/kevingao1136/Udacity_DataScience_Nanodegree/blob/master/Udacity_DSND.png)
+
 **Project list:**
 - [A Data Science Blog Post - A StackOverflow Survey Analysis](https://github.com/kevingao1136/DataScience_Udacity/tree/master/Intro_DS_blog_post)
 
