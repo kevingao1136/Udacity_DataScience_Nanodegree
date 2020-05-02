@@ -1,11 +1,11 @@
 # Starbucks Capstone Challenge
 
-### Introduction
+## Introduction
 Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). The project represents a one-month experiment for Starbucks to test out the market and see what offers really excite different demographics of people.
 
 A blog post of this project can be found here: https://medium.com/@kevingao1136/starbucks-capstone-challenge-a9e506509016
 
-### Motivation
+## Motivation
 The purpose of this project is to determine which demographic groups respond best to which offer types, to help Starbucks make better decisions on sending out offers to targeted customers to increase sales and potentially save money.
 
 By sending offers to the RIGHT customers
@@ -15,7 +15,7 @@ By NOT sending offers to the RIGHT customers
 - Starbucks can save costs on the promotion event on customers who would make purchases without offers
 - Starbucks can prevent customers from reacting negatively to an offer by not sending the offer
 
-### Example
+## Example
 
 To give an example, a user could receive a discount offer buy 10 dollars get 2 off on Monday. The offer is valid for 10 days from receipt. If the customer accumulates at least 10 dollars in purchases during the validity period, the customer completes the offer.
 
