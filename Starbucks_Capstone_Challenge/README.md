@@ -7,9 +7,11 @@ A blog post of this project can be found here: https://medium.com/@kevingao1136/
 
 ### Motivation
 The purpose of this project is to determine which demographic groups respond best to which offer types, to help Starbucks make better decisions on sending out offers to targeted customers to increase sales and potentially save money.
-By sending offers to the RIGHT customers:
+
+By sending offers to the RIGHT customers
 - Starbucks can boost brand recognition, customer loyalty, increase sales activities, promote a new product, etc.
-By NOT sending offers to the RIGHT customers:
+
+By NOT sending offers to the RIGHT customers
 - Starbucks can save costs on the promotion event on customers who would make purchases without offers
 - Starbucks can prevent customers from reacting negatively to an offer by not sending the offer
 
